@@ -1,0 +1,40 @@
+body{
+ background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg_image.jpg);
+ height:100vh;
+ background-size=cover;
+ background-position:center;
+}
+.Lane{
+    width:360px;
+    padding:10% 0 0;
+    margin:auto;
+}
+.form_{
+    position:relative;
+    z-index:1;
+    background:rgba(10,10,10,0.5);
+    max-width:360px;
+    margin:0 auto 100px;
+    padding:30px;
+    text-align:center;
+}
+
+tr:nth-child(odd){
+width:360px;
+background-color:rgba(10,10,10,0.5);
+color:#fff;
+}
+tr:nth-child(even){
+width:360px;
+background-color:rgba(20,20,20,0.5);
+color:#fff;
+}
+th{
+width:360px;
+background-color:rgba(50,50,50,0.5);
+color:#fff;
+}
+th,td{
+text-align:left;
+padding:1% 1% 1%;
+}

@@ -1,0 +1,12 @@
+lane_inp_page=r"E:\Hackerearth\NPCI\code_lane\Lane_inp.html"
+database_path=r'E:\Hackerearth\NPCI\code_lane\Database.xlsx'
+schema_begin=r'E:\Hackerearth\NPCI\code_lane\schema_begin.txt'
+schema_end=r'E:\Hackerearth\NPCI\code_lane\schema_end.txt'
+lane_result_page=r'E:\Hackerearth\NPCI\code_lane\Lane_result.html'
+schema="""
+    <tr>
+        <td>{lane_num}</td>
+        <td>{pay_type}</td>
+        <td>{active}</td>
+    </tr>
+"""
