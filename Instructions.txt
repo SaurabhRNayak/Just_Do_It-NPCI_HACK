@@ -1,0 +1,47 @@
+-------------------------------------------------------
+storage structure:
+
+code_scan-
+	  |
+	  +-- static |    
+	  |	    +--styles|    
+	  |	    	     +--bg_image.jpg
+	  |	    	     +--style.css
+	  +-- templates
+	  |  |  
+	  |  +-- barcode_disp.html
+	  |  +-- login.html
+	  |  +-- scanner.html
+	  |  +-- status.html
+	  |  +-- toll_name.html
+	  +-- Barcode_gen.py
+	  +-- chromedriver.exe
+	  +-- Toll_pass.py
+
+code_lane-
+	  |
+	  +-- bg_image.jpg
+	  +-- constants.py
+	  +-- Database.xlsx
+	  +-- chromedriver.exe
+	  +-- Lane_inp.html
+	  +-- Lane_result.html
+	  +-- Lane_result_schema.html
+	  +-- LaneFinder.py
+	  +-- schema_begin.txt
+	  +-- schema_end.txt
+	  +-- script.js
+	  +-- style.css
+	  +-- style2.css
+DataB-
+     +-- Database.xlsx
+     +-- Person_db.xlsx
+     +-- Toll_booth_db.xlsx
+     +-- user_hash.json
+-------------------------------------------------------
+Instructions:
+->Save the files in the above shown structure.
+->Edit the filepaths in program for the depedent files according to the location saved in your system.
+->IMPORTANT: if the program is not terminated properly delete the file "scanned.jpg" under code_scan folder (if present) before restarting the program.
+
+watch the video link to get an idea- https://youtu.be/r1tgGqac0vE
