@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fastag2.0</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/style.css')}}">
+    <script type="text/javascript">
+    function myFunction()
+    {
+<!--    document.write("<h1>Hello World!</h1><p>Have a nice day!</p>");-->
+    var x = document.getElementById("submit");
+
+    if (x.value === "GO") {
+    x.value="loading";
+    }
+<!--        x.innerHTML = "A computer science portal for geeks";-->
+<!--    } else {-->
+<!--        x.innerHTML = "Welcome to GeeksforGeeks";-->
+<!--    }-->
+    }
+    </script>
+</head>
+<body>
+<div class="Lane">
+    <div class="Toll_cls">
+      <form class="form_" action="/form_login" method="post">
+          <input name="un" type="text" placeholder="Username" value=""/>
+          <input name="pwd" type="password" placeholder="Password" value=""/>
+          <input id="submit" type="submit" onclick="myFunction();" value="GO"/>
+      </form>
+    </div>
+</div>
+</body>
+</html>
