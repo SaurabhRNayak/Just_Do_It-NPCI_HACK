@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Complaint_ID</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/style2.css')}}">
+</head>
+<body>
+<div class="Lane">
+    <div class="Toll_cls">
+      <form class="form_" action="/new_complaint" method="post">
+          <input name="cons_id" type="text" placeholder="ENTER CONSUMER ID"/>
+          <input name="trans_id" type="text" placeholder="ENTER TRANSACTION ID" required/>
+          <input name="desc" type="text" placeholder="ENTER DESCRIPTION (optional)"/>
+          <input id="submit" type="submit" onclick="myFunction();" value="SUBMIT"/>
+      </form>
+    </div>
+</div>
+</body>
+</html>

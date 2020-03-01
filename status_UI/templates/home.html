@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles/style1.css')}}">
+</head>
+<body>
+<div class="Lane">
+    <div class="Toll_cls">
+      <form class="form_" action="/home" method="post">
+          <table>
+          <tr>
+              <td><input type="radio" name="options" id="Register Complaint" value="Register Complaint"><label for="Register Complaint">Register Complaint</label></td>
+          </tr>
+          <tr>
+              <td><input type="radio" name="options" id="Get Status" value="Get Status"><label for="Register Complaint">Get Status</label></td>
+          </tr>
+          </table>
+          <input type=submit value="Submit" id="Submit">
+
+      </form>
+    </div>
+</div>
+</body>
+</html>
